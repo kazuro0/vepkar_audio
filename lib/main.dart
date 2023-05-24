@@ -371,7 +371,8 @@ class AboutPage extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
-                  'github.com/kazuro0/vepkar_audio',
+                  'Дмитрий Брухан\ngithub.com/kazuro0/vepkar_audio',
+                  textAlign: TextAlign.center,
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16, fontFamily: 'Open Sans', color: Colors.grey),
                 ),
               ),
