@@ -39,11 +39,11 @@ class DetailPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.red,
-        title: const Text('VepKar Audio',
+        title: const Text('Karelian Multimedia Dictionary',
             style: TextStyle(
                 fontFamily: 'Centro',
                 fontWeight: FontWeight.w600,
-                fontSize: 24)),
+                fontSize: 16)),
       ),
       body: ListView(
         padding: const EdgeInsets.all(20),
@@ -201,11 +201,11 @@ class _MyAppState extends State<MyApp> {
                     },
                   ),
                 )
-              : const Text('VepKar Audio',
+              : const Text('Karelian Multimedia Dictionary',
                   style: TextStyle(
                       fontFamily: 'Centro',
                       fontWeight: FontWeight.w600,
-                      fontSize: 24)),
+                      fontSize: 16)),
           actions: [
             Padding(
               padding: const EdgeInsets.only(right: 10),
@@ -371,7 +371,7 @@ class AboutPage extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
-                  'Разработчик: Брухан Дмитрий',
+                  'github.com/kazuro0/vepkar_audio',
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16, fontFamily: 'Open Sans', color: Colors.grey),
                 ),
               ),
